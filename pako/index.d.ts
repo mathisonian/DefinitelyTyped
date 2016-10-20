@@ -25,7 +25,7 @@ declare namespace Pako {
 	 */
 	export function inflate( data: Uint8Array | Array<number> | string, options?: any ): Uint8Array;
 	export function inflate( data: Uint8Array | Array<number> | string, options?: any ): Array<number>;
-	export function inflate( data: Uint8Array | Array<number> | string, options?: any ): String;
+	export function inflate( data: Uint8Array | Array<number> | string, options?: any ): string;
 	/**
 	 * The same as inflate, but creates raw data, without wrapper (header and adler32 crc).
 	 */
